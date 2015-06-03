@@ -1,0 +1,38 @@
+body {
+            padding: 0px;
+            font: 14px "Futura", "Lucida Grande", Helvetica, Arial, sans-serif;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #ff6601;
+        }
+
+        h1 {
+            text-align: center;
+	    color: white;
+        }
+
+	p {
+            text-align: center;
+	    color: white;
+        }
+
+        a {
+            color: #00B7FF;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        #map {
+            width: 700px;
+            height: 600px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+       .controls {
+            text-align: center;
+            padding: 0.5em;  
+        }
+    
