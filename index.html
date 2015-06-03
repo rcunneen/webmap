@@ -1,1 +1,36 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Australian RHD Atlas">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <title>Australian RHD Atlas | NHMRC funding</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="jquery.csv-0.71.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.6.0/mapbox.js'></script>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.6.0/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'>    </script>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />     
+</head>
+<body>
+    <h1>NHMRC awarded funding for RF/RHD Research 1990 to 2015</h1>
+	<p>A very basic map with selectable buttons</p>
+    <div id="map"></div>
+    <div class="controls">
+            <div id="causes">
+            <input type="checkbox" id="type_research" checked="checked" />
+            <label for="type_research">Research Suport</label>
+            <input type="checkbox" id="type_people" checked="checked" />
+            <label for="type_people">People Support</label>
+        </div>
+    </div>
+    <footer>
+        <!-- Attribute you data here -->
+    </footer>
+    <script src="script.js"></script>    
+</body>
+</html>
